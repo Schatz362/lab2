@@ -18,43 +18,90 @@ body {
 
 .Title h1 {
   margin: .25rem;
-  font-size: 3em;
+  font-size: 5em;
 }
 
 .Title p{
   margin: .5em 1.5em ;
+  font-size: 2em;
 }
 
 #form {
   margin: 0;
-  padding: 1rem 2em 6em 2em;
+  padding: 1rem 2em 5em 2em;
   background-color: black;
-  width: 75%;
-  height: 100%;
+  width: 60%;
+  font-size: 2em;
 }
-
-
 
 #form ul {
   list-style-type: none;
-  width: 20em;
+  width: 80%;
 }
 #form ul li {
   margin: 1.5rem 0;
-  padding: 0 0;
+  padding: 1em 0;
 }
 
 #form input {
-  border: 1px solid #fff;
+  border: 8px solid #fff;
   border-radius: 0;
   float: right;
   width: 12em;
   height: 2em;
+  font-size: 1em;
 }
 
 #submit {
-  margin: 3em 0;
+  margin: 2em 0;
 }
 
+@media only screen and (max-width: 1600px) {
+  Title{
+    margin: 0;
+    padding: 1vh;
+    color: black;
+    background-color: #E95420;
+  }
 
+  .Title h1 {
+    margin: .25rem;
+    font-size: 3vw;
+  }
 
+  .Title p{
+    margin: .5em 1.5em ;
+    font-size: .1em;
+  }
+
+  #form {
+    margin: 0;
+    padding: 1rem 2em 5em 2em;
+    background-color: black;
+    width: 60%;
+    font-size: 1em;
+  }
+
+  #form ul {
+    list-style-type: none;
+    width: 80%;
+  }
+  #form ul li {
+    margin: 1.5rem 0;
+    padding: 1em 0;
+  }
+
+  #form input {
+    border: 8px solid #fff;
+    border-radius: 0;
+    float: right;
+    width: 12vw;
+    height: 3vh;
+    font-size: 1vh;
+  }
+
+  #submit {
+    margin: 2em 0;
+  }
+
+}
