@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #5E2750;
+
+  color: white;
+  font-family: "Ubuntu", serif;
+}
+
+.Title{
+  margin: 0;
+  padding: 1rem;
+  color: black;
+  background-color: #E95420;
+}
+
+.Title h1 {
+  margin: .25rem;
+  font-size: 3em;
+}
+
+.Title p{
+  margin: .5em 1.5em ;
+}
+
+#form {
+  margin: 0;
+  padding: 1rem 2em 6em 2em;
+  background-color: black;
+  width: 75%;
+  height: 100%;
+}
+
+
+
+#form ul {
+  list-style-type: none;
+  width: 20em;
+}
+#form ul li {
+  margin: 1.5rem 0;
+  padding: 0 0;
+}
+
+#form input {
+  border: 1px solid #fff;
+  border-radius: 0;
+  float: right;
+  width: 12em;
+  height: 2em;
+}
+
+#submit {
+  margin: 3em 0;
+}
+
+
+
